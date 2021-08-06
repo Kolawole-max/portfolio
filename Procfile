@@ -1,1 +1,1 @@
-web: gunicorn personal_profile:app
+web: gunicorn portfolio:wsgi --log-file
